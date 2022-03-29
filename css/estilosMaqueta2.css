@@ -1,0 +1,159 @@
+body {
+    background: rgb(43, 80, 102);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+ }
+
+header .nav {
+    min-height: 80px;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+}
+
+header .menu .icono {
+    color: white;
+}
+
+header .menu span {
+    color: white;
+}
+
+header .menu .icono:hover {
+    color: rgb(89, 211, 233);
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #185a6b;
+	background-color: #08599c;
+	border-radius:5px;
+	border:1px solid #185a6b;
+	display:inline-block;
+	cursor:pointer;
+	color: #fff;
+	font-family: lucida,sans-serif;
+	font-size:15px;
+	font-weight:lighter;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #000000;
+}
+.myButton:hover {
+	background-color:rgb(89, 211, 233);
+	color:#000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-inner{
+ height: 400px;
+}
+
+.fotoyo{
+	position:absolute;
+	height:250px;
+	width:250px;
+	top: 400px;
+	left : 150px;
+	z-index: 1;
+	filter: drop-shadow(0px 5px 5px #3da5e2);
+  }
+
+/* Acerca de */
+.acerca-de {
+	background: #000;
+	border-top: 5px solid #3da5e2;
+}
+.acerca-de .foto .nombre {
+	color: #545454;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.acerca-de .info .titulo {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.acerca-de .info .resumen {
+	letter-spacing: 1px;
+	font-weight: 200;
+}
+
+.acerca-de .info .label {
+	font-size: 18px;
+	font-weight: 600;
+	color: #005385;
+	margin-bottom: 10px;
+}
+
+/*Columnas Experiencia y estudios */
+.columnaMadre {
+	background: #000;
+	text-align: center;
+	border: 1px solid #3da5e2;
+}
+
+.columna-interior {
+	background: #000;
+	padding: 10px; 
+	
+}
+
+section .columna-interior .icono2 {
+    color: #ffffff;
+	stroke: #ffffff;
+	text-align-last: right;
+	
+}
+
+main .columna-interior .icono3 {
+	text-align-last: left;
+	width: 30px;
+	height: 50px;
+	
+}
+
+section .columna .icono2 {
+    color: #ffffff;
+	stroke: #ffffff;
+	text-align-last: right;
+	
+}
+
+.columna {
+	background: #000;
+	text-align: center;
+
+}
+
+
+.columna-interior .icono2 {
+    color: #ffffff;
+	stroke: #ffffff;
+	text-align-last: right;
+	
+}
+
+.acerca-de .info .label {
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	margin-bottom: 10px;
+
+}
+
+.textcard {
+	color:#000
+}
