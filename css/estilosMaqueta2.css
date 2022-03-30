@@ -146,6 +146,13 @@ section .columna .icono2 {
 	
 }
 
+.columna .icono2 {
+    color: #ffffff;
+	stroke: #ffffff;
+	text-align-last: right;
+	
+}
+
 .acerca-de .info .label {
 	font-size: 18px;
 	font-weight: 600;
